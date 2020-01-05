@@ -2,6 +2,7 @@
 Make working on gomobile projects a little bit easier
 
 
+
 ## Working with gomobile-skel
 
 First run:
@@ -14,3 +15,23 @@ Next runs:
 `make create project=baz`
 
 
+Listing projects:
+
+`make list-projects`
+
+
+Building project:
+
+`make build-project project=bar`
+
+Building all projects:
+
+`make build-all`
+
+Linking all project dirs to GOPATH:
+
+`make link-all`
+
+Unlinking all project dirs from GOPATH:
+
+`make unlink-all`
