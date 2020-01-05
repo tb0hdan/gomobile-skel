@@ -8,7 +8,7 @@ all: create-domain create
 create: projects-dir check-param check-nonexist actual-create copy-skel mod
 
 projects-dir:
-	@mkdir -p ./projects
+	@mkdir -p $(PROJECT-DIR)
 
 check-domain:
 	@if [ "$$domain" == "" ]; then \

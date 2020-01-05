@@ -1,6 +1,5 @@
 # gomobile-skel
-Make working on gomobile projects a little bit easier
-
+Gomobile skel tool - build mobile apps written in Go easier and faster
 
 
 ## Working with gomobile-skel
